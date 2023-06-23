@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Today's Headlines</title>
   </head>
   <body>
-    <div id="main-container"></div>
+    <h1>Today's Headlines</h1>
+    <div class="grid-container">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Enter your search term">
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="main-container"></div>
+    </div>
     <script src="bundle.js"></script>
   </body>
 </html>
